@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="news">
+        <p>
+          🎊To celebrate Spense's launch,we will be waiving all fees for the
+          entire month of April.
+          <span>You will be receiving 100% of the earnings.🎊</span>
+        </p>
+      </div>
+
+      <nav id="navbar">
+        <div class="logo">spense</div>
+        <div class="ncenter">
+          <ul>
+            <li>
+              <a href="#">business</a>
+            </li>
+            <li>
+              <a href="#">pricing</a>
+            </li>
+            <li>
+              <a href="#">features</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nright">
+          <a href="#">login</a>
+          <button>get started</button>
+        </div>
+      </nav>
+
+      <section>
+        <div class="page1">
+          <div class="hero">
+            <div class="text">
+              <h1>Share your unfiltered throughs.Get paid.</h1>
+              <p>
+                Spense is an open platform for individuals to share their
+                unfiltered thoughts.Discuss the topics you love,and get paid for
+                doing just that.
+              </p>
+              <ul>
+                <li>
+                  <div class="align">
+                    <img src="./Assets/Checkmark.svg" alt="" />Receive 99% off
+                    the earnings.
+                  </div>
+                </li>
+                <li>
+                  <div class="align">
+                    <img src="./Assets/Checkmark.svg" alt="" />Get paid via
+                    Debit CArd,ACH, or PayPal.
+                  </div>
+                </li>
+                <li>
+                  <div class="align">
+                    <img src="./Assets/Checkmark.svg" alt="" />Withdraw your
+                    earnings anytime.
+                  </div>
+                </li>
+              </ul>
+              <div class="mail">
+                <input type="text" placeholder="john@example.com" />
+                <button>Get Started</button>
+              </div>
+            </div>
+            <div class="imgcon"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page2">
+          <div class="slider">
+            <div class="Logo">
+              <img src="./Assets/Facebook Logo.png" alt="" />
+              <img src="./Assets/Dribbble Logo.png" alt="" />
+              <img src="./Assets/Youtube Logo.png" alt="" />
+              <img src="./Assets/Pinterest Logo.png" alt="" />
+              <img src="./Assets/Twitter Logo.png" alt="" />
+              <img src="./Assets/Reddit Logo.png" alt="" />
+              <img src="./Assets/Google Logo.png" alt="" />
+              <img src="./Assets/Slack Logo.png" alt="" />
+              <img src="./Assets/Facebook Logo.png" alt="" />
+              <img src="./Assets/Dribbble Logo.png" alt="" />
+              <img src="./Assets/Youtube Logo.png" alt="" />
+              <img src="./Assets/Pinterest Logo.png" alt="" />
+              <img src="./Assets/Twitter Logo.png" alt="" />
+              <img src="./Assets/Reddit Logo.png" alt="" />
+              <img src="./Assets/Google Logo.png" alt="" />
+              <img src="./Assets/Slack Logo.png" alt="" />
+            </div>
+          </div>
+          <div class="info">
+            <div class="text">
+              <h1>Secure your money with Escrow.</h1>
+              <p>
+                Spense uses Escrow to secure all payments.We belive Escrow
+                offers the highest level of security for your payments,so you
+                never need to worry about scams.
+              </p>
+              <a href="#">Learn more about Escrow →</a>
+            </div>
+            <div class="imgcon"></div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="page3">
+          <div class="imgcon"></div>
+          <div class="text">
+            <h1>A text editor like no other.</h1>
+            <p>
+              Our text editor pulls you into focus mode with it's simplistic
+              design and usability so you can put out your best writings.
+            </p>
+            <a href="#">Text Editor Live Demo →</a>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <footer>
+          <div class="spense">
+            <h1>spense.</h1>
+            <p>
+              Spense is an open platform for individuals to share their
+              unfiltered thoughts.Discuss the topics you love,and get paid for
+              doing just that.
+            </p>
+          </div>
+          <div class="sitemap">
+            <h1>sitemap</h1>
+            <a href="#">homepage</a>
+          </div>
+          <div class="resources">
+            <h1>resources</h1>
+            <a href="#">support</a>
+            <a href="#">contact</a>
+            <a href="#">FAQ</a>
+          </div>
+          <div class="company">
+            <h1>company</h1>
+            <a href="#">about</a>
+            <a href="#">customers</a>
+            <a href="#">blog</a>
+          </div>
+          <div class="opportunities">
+            <h1>opportunities</h1>
+            <a href="#">jobs</a>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-10vh";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+  </body>
+</html>
